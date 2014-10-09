@@ -1,0 +1,35 @@
+{
+  "input": {
+    "type": "identify",
+    "timestamp": "2014",
+    "userId": "12345",
+    "traits": {
+      "address": {
+        "city": "Sudden Valley",
+        "country": "USA",
+        "postalCode": "92688",
+        "state": "CA",
+        "street": "1 Lucille Lane"
+      },
+      "email": "george@bluth.com",
+      "firstName": "George",
+      "lastName": "Bluth",
+      "phone": "555-555-0113",
+      "title": "President"
+    },
+    "context": {
+      "ip": "10.0.0.1"
+    }
+  },
+  "output": {
+    "addresses": [{ "value": "1 Lucille Lane, Sudden Valley, CA, 92688, USA", "type": "other" }],
+    "emails": [
+      { "value": "george@bluth.com", "type": "other" }
+    ],
+    "external_id": "12345",
+    "first_name": "George",
+    "last_name": "Bluth",
+    "phone_numbers": [{ "value": "555-555-0113", "type": "other" }],
+    "title": "President"
+  }
+}
